@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Clayton Rennan - Engenheiro Civil · Estruturas</title>
+<meta name="description" content="Clayton Rennan, engenheiro civil - CREA/SP. Projetos estruturais, laudos técnicos e acompanhamento de obra. 15+ anos, 80+ obras, 350 mil m² construídos." />
+<meta name="theme-color" content="#0c0d10" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://claytonrennan.vercel.app/" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Clayton Rennan" />
+<meta property="og:title" content="Clayton Rennan - Engenheiro Civil · Estruturas" />
+<meta property="og:description" content="Projetos estruturais, laudos técnicos e acompanhamento de obra - concreto, aço, madeira e fundações. 15+ anos, 80+ obras, 350 mil m² construídos." />
+<meta property="og:url" content="https://claytonrennan.vercel.app/" />
+<meta property="og:image" content="https://images.pexels.com/photos/23985868/pexels-photo-23985868.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Clayton Rennan - Engenheiro Civil · Estruturas" />
+<meta name="twitter:description" content="Projetos estruturais, laudos técnicos e acompanhamento de obra - 15+ anos, 80+ obras, 350 mil m² construídos." />
+<meta name="twitter:image" content="https://images.pexels.com/photos/23985868/pexels-photo-23985868.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#0c0d10',
+          bg2: '#101216',
+          panel: '#14171c',
+          ink: '#e9ecf0',
+          muted: '#99a1ad',
+          dim: '#5c636e',
+          bp: '#4c9aff',
+          amber: '#ffb02e',
+          night: '#06121f',
+          line: 'rgba(233, 236, 240, 0.1)',
+          line2: 'rgba(233, 236, 240, 0.22)',
+        },
+        fontFamily: {
+          display: ['"Space Grotesk"', '"Segoe UI"', 'system-ui', 'sans-serif'],
+          body: ['Inter', '"Segoe UI"', 'system-ui', 'sans-serif'],
+          mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+        },
+        keyframes: {
+          fadeup: { from: { opacity: '0', transform: 'translateY(24px)' }, to: { opacity: '1', transform: 'translateY(0)' } },
+        },
+        animation: {
+          fadeup: 'fadeup 0.8s ease-out both',
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-bg text-ink font-body antialiased overflow-x-hidden selection:bg-bp/40 selection:text-white">
+
+<div class="fixed z-[-1] w-[520px] h-[520px] -top-40 -left-32 rounded-full blur-[120px] opacity-50 pointer-events-none bg-[radial-gradient(circle,rgba(76,154,255,0.35),transparent_70%)]" aria-hidden="true"></div>
+<div class="fixed z-[-1] w-[460px] h-[460px] top-[40%] -right-36 rounded-full blur-[120px] opacity-50 pointer-events-none bg-[radial-gradient(circle,rgba(255,176,46,0.16),transparent_70%)]" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header id="header" class="fixed top-0 inset-x-0 z-[100] border-b border-transparent transition-colors duration-300">
+  <div class="mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)] h-[74px] flex items-center justify-between">
+    <a href="#inicio" class="flex items-center gap-3 font-display font-semibold text-base tracking-[-0.01em] no-underline">
+      <span class="relative w-[36px] h-[36px] border border-line2 overflow-hidden grid grid-cols-2 shrink-0">
+        <span class="bg-bp/15 grid place-items-center text-bp font-display font-bold text-[13px] leading-none pt-[1px]">C</span>
+        <span class="bg-amber/10 grid place-items-center text-amber font-display font-bold text-[13px] leading-none pt-[1px]">R</span>
+      </span>
+      <span>Clayton Rennan<span class="block font-mono text-[10px] tracking-[2px] text-dim uppercase -mt-0.5">Eng. Civil · Estruturas</span></span>
+    </a>
+    <nav class="flex items-center gap-[30px]">
+      <a href="#servicos" class="hidden lg:inline-block relative font-mono text-xs tracking-[1.5px] uppercase text-muted hover:text-bp transition-colors after:absolute after:left-0 after:-bottom-[5px] after:h-[1.5px] after:w-full after:origin-left after:scale-x-0 after:bg-bp after:transition-transform after:duration-200 hover:after:scale-x-100">Serviços</a>
+      <a href="#obras" class="hidden lg:inline-block relative font-mono text-xs tracking-[1.5px] uppercase text-muted hover:text-bp transition-colors after:absolute after:left-0 after:-bottom-[5px] after:h-[1.5px] after:w-full after:origin-left after:scale-x-0 after:bg-bp after:transition-transform after:duration-200 hover:after:scale-x-100">Obras</a>
+      <a href="#numeros" class="hidden lg:inline-block relative font-mono text-xs tracking-[1.5px] uppercase text-muted hover:text-bp transition-colors after:absolute after:left-0 after:-bottom-[5px] after:h-[1.5px] after:w-full after:origin-left after:scale-x-0 after:bg-bp after:transition-transform after:duration-200 hover:after:scale-x-100">Números</a>
+      <a href="#contato" class="inline-flex items-center gap-3 font-mono text-[11px] tracking-[1px] uppercase no-underline rounded px-4 py-2.5 border transition-colors duration-200 cursor-pointer border-line2 text-ink hover:border-bp hover:text-bp">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="min-h-screen flex items-center justify-center py-[140px] pb-20 relative text-center" id="inicio">
+  <div class="mx-auto w-[min(840px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)]">
+    <div class="font-mono text-xs tracking-[2.5px] uppercase text-amber inline-flex items-center justify-center gap-3 mb-7 animate-fadeup motion-reduce:animate-none">CREA/SP 5061234567-D · ART em dia</div>
+    <h1 class="font-display font-bold text-[clamp(46px,7.6vw,108px)] leading-[0.98] tracking-[-0.03em] uppercase animate-fadeup [animation-delay:120ms] motion-reduce:animate-none">Clayton<br /><span class="text-bp">Rennan</span></h1>
+    <p class="text-muted text-[17px] max-w-[560px] mx-auto mt-7 leading-[1.7] animate-fadeup [animation-delay:240ms] motion-reduce:animate-none">
+      Engenheiro civil especializado em <strong class="text-ink font-semibold">estruturas</strong>. Projeto, calculo e acompanho
+      obras que ficam de pé por décadas - <strong class="text-ink font-semibold">concreto, aço, madeira e fundações</strong>,
+      do estudo inicial à entrega.
+    </p>
+      <div class="mt-10 flex gap-3.5 flex-wrap justify-center animate-fadeup [animation-delay:360ms] motion-reduce:animate-none">
+        <a href="#obras" class="group inline-flex items-center gap-3 font-mono text-[13px] tracking-[1px] uppercase no-underline rounded px-7 py-3.5 border transition-colors duration-200 cursor-pointer bg-bp border-bp text-night hover:bg-transparent hover:text-bp">Ver obras <span class="material-symbols-outlined text-[18px] leading-none transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span></a>
+        <a href="#contato" class="inline-flex items-center gap-3 font-mono text-[13px] tracking-[1px] uppercase no-underline rounded px-7 py-3.5 border transition-colors duration-200 cursor-pointer border-line2 text-ink hover:border-bp hover:text-bp">Falar comigo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SERVIÇOS ================= -->
+<section class="py-[120px] max-lg:py-[84px] relative" id="servicos">
+  <div class="mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)]">
+    <div class="transition-all duration-700 ease-out motion-reduce:transition-none" data-reveal>
+      <div class="font-mono text-xs tracking-[2.5px] uppercase text-dim inline-flex items-center gap-3"><span class="w-[9px] h-[9px] bg-amber"></span><span class="text-bp">001</span> - Serviços</div>
+      <h2 class="font-display font-bold text-[clamp(32px,5.2vw,62px)] tracking-[-0.02em] uppercase leading-[1.02] mt-[22px]">O que eu <span class="text-bp">faço</span></h2>
+    </div>
+
+    <div class="grid grid-cols-2 max-md:grid-cols-1 gap-[18px] mt-14 transition-all duration-700 ease-out motion-reduce:transition-none" data-reveal>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">architecture</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">01<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Projetos <span class="text-bp">estruturais</span></h3>
+        <p class="text-muted text-[14.5px]">Cálculo de concreto armado, aço e madeira com memória de cálculo completa, compatibilização e detalhamento executivo para a obra.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Projeto executivo + memória de cálculo + ART</span>
+      </div>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">fact_check</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">02<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Laudos &amp; <span class="text-bp">vistorias</span></h3>
+        <p class="text-muted text-[14.5px]">Inspeção de estruturas, diagnóstico de patologias e laudos técnicos com emissão de ART - decisão com base técnica, não em achismo.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Laudo técnico + fotos + parecer conclusivo</span>
+      </div>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">engineering</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">03<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Acompanhamento <span class="text-bp">de obra</span></h3>
+        <p class="text-muted text-[14.5px]">Gestão técnica do canteiro: cronograma, qualidade dos materiais, segurança e fidelidade ao projeto executivo, etapa por etapa.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Relatórios de visita + conferência de etapas</span>
+      </div>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">calculate</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">04<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Orçamento &amp; <span class="text-bp">planejamento</span></h3>
+        <p class="text-muted text-[14.5px]">Orçamentos detalhados, curva ABC e cronograma físico-financeiro - para decidir com clareza e gastar com segurança.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Planilha orçamentária + cronograma</span>
+      </div>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">approval</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">05<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Regularização &amp; <span class="text-bp">licenças</span></h3>
+        <p class="text-muted text-[14.5px]">Aprovação em prefeituras, licenças, ART e documentação completa para legalizar o seu empreendimento sem dor de cabeça.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Documentação aprovada + ART</span>
+      </div>
+      <div class="relative bg-panel border border-line p-[30px_28px_28px] transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[26px] text-bp leading-none">support_agent</span>
+          <span class="font-mono text-[11px] text-amber tracking-[1.5px]">06<span class="text-dim"> //</span></span>
+        </div>
+        <h3 class="font-display font-semibold text-[21px] uppercase tracking-[-0.01em] mt-3 mb-2.5">Consultoria <span class="text-bp">técnica</span></h3>
+        <p class="text-muted text-[14.5px]">Pareceres e apoio técnico para compra de imóvel, reformas, patologias e decisões que envolvem estrutura - antes de gastar.</p>
+        <span class="mt-[18px] font-mono text-[10.5px] tracking-[1px] uppercase text-dim block"><b class="text-muted font-medium">ENTREGÁVEL</b> · Parecer técnico assinado</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OBRAS ================= -->
+<!--
+  📸 Fotos reais via Pexels (hotlink direto, sem API key).
+  Para trocar por fotos próprias, substitua as URLs nos cards abaixo ou
+  crie a pasta /obras/ com: alto-da-serra.jpg · ponte-do-vale.jpg ·
+  galpao-logistico-sul.jpg · escola-nova-esperanca.jpg · parque-verde.jpg ·
+  complexo-agrovale.jpg
+-->
+<section class="py-[120px] max-lg:py-[84px] relative" id="obras">
+  <div class="mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)]">
+    <div class="transition-all duration-700 ease-out motion-reduce:transition-none" data-reveal>
+      <div class="font-mono text-xs tracking-[2.5px] uppercase text-dim inline-flex items-center gap-3"><span class="w-[9px] h-[9px] bg-amber"></span><span class="text-bp">002</span> - Obras</div>
+      <h2 class="font-display font-bold text-[clamp(32px,5.2vw,62px)] tracking-[-0.02em] uppercase leading-[1.02] mt-[22px]">Projetos que saíram do <span class="text-bp">papel</span></h2>
+    </div>
+
+    <div class="grid grid-cols-3 max-lg:grid-cols-2 max-[620px]:grid-cols-1 gap-[18px] mt-14 transition-all duration-700 ease-out motion-reduce:transition-none" data-reveal>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Fachada do Residencial Alto da Serra" style="background-image: linear-gradient(150deg, rgba(76,154,255,0.32), rgba(18,28,46,0.85) 70%), url('https://images.pexels.com/photos/14100383/pexels-photo-14100383.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">FACHADA</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 01 · ALTO DA SERRA</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Alto da Serra</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2025</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Residencial · Concreto armado</span>
+          <p class="text-muted text-[13.5px] flex-1">Pórtico de 18 pavimentos calculado do zero, com fundações em estaca raiz e lajes nervuradas.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>18 pavimentos entregues</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">apartment</span></div>
+        </div>
+      </article>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Ponte do Vale" style="background-image: linear-gradient(150deg, rgba(38,166,154,0.32), rgba(10,26,30,0.85) 70%), url('https://images.pexels.com/photos/23985868/pexels-photo-23985868.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">OBRA DE ARTE</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 02 · PONTE DO VALE</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Ponte do Vale</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2024</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Obra de arte · Treliça metálica</span>
+          <p class="text-muted text-[13.5px] flex-1">Obra de arte especial com vão de 120 metros, articulada para cargas móveis classe 45.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>120 m de vão · dentro do prazo</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">route</span></div>
+        </div>
+      </article>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Galpão Logístico Sul" style="background-image: linear-gradient(150deg, rgba(255,176,46,0.3), rgba(40,28,10,0.85) 70%), url('https://images.pexels.com/photos/15508178/pexels-photo-15508178.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">GALPÃO</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 03 · GALPÃO LOGÍSTICO</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Galpão Logístico Sul</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2024</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Industrial · Estrutura metálica</span>
+          <p class="text-muted text-[13.5px] flex-1">Galpão de 12.000 m² com tesouras metálicas de 24 m e fundações em tubulão.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>12.000 m² cobertos</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">warehouse</span></div>
+        </div>
+      </article>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Escola Nova Esperança" style="background-image: linear-gradient(150deg, rgba(92,196,107,0.3), rgba(10,28,16,0.85) 70%), url('https://images.pexels.com/photos/209292/pexels-photo-209292.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">REFORÇO</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 04 · ESCOLA</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Escola Nova Esperança</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2023</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Educacional · Reforma e reforço</span>
+          <p class="text-muted text-[13.5px] flex-1">Reforço estrutural com encamisamento de pilares e novo dimensionamento de lajes.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>−22% no orçamento</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">school</span></div>
+        </div>
+      </article>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Condomínio Parque Verde" style="background-image: linear-gradient(150deg, rgba(139,92,246,0.3), rgba(22,12,40,0.85) 70%), url('https://images.pexels.com/photos/8469138/pexels-photo-8469138.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">CONDOMÍNIO</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 05 · PARQUE VERDE</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Parque Verde</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2023</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Residencial · Fundações</span>
+          <p class="text-muted text-[13.5px] flex-1">Condomínio de 3 blocos: 350 unidades sobre radier, com contenção e infraestrutura completa.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>350 unidades entregues</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">holiday_village</span></div>
+        </div>
+      </article>
+
+      <article class="group bg-panel border border-line flex flex-col transition-all duration-200 hover:border-bp hover:-translate-y-1">
+        <div class="relative aspect-[16/10] bg-cover bg-center border-b border-line overflow-hidden transition-transform duration-700 group-hover:scale-[1.06] after:absolute after:inset-0 after:bg-gradient-to-t after:from-bg/60 after:to-transparent" role="img" aria-label="Complexo AgroVale" style="background-image: linear-gradient(150deg, rgba(163,190,33,0.28), rgba(20,24,8,0.85) 70%), url('https://images.pexels.com/photos/12380134/pexels-photo-12380134.jpeg?auto=compress&cs=tinysrgb&w=900');">
+          <span class="absolute top-3 right-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-amber border border-amber/50 px-2 py-1 bg-bg/60">SILOS</span>
+          <span class="absolute bottom-3 left-3.5 z-[2] font-mono text-[10px] tracking-[1.5px] uppercase text-ink/90 border border-ink/20 bg-bg/55 px-2 py-1">IMG 06 · AGROVALE</span>
+        </div>
+        <div class="p-[22px] flex flex-col gap-2 flex-1">
+          <div class="flex justify-between items-center gap-3"><h3 class="font-display font-semibold text-[18px] uppercase tracking-[-0.01em]">Complexo AgroVale</h3><span class="font-mono text-[10.5px] tracking-[1px] text-dim border border-line px-2 py-[3px]">2022</span></div>
+          <span class="font-mono text-[10.5px] tracking-[1.5px] uppercase text-amber">Agroindustrial · Silos e planejamento</span>
+          <p class="text-muted text-[13.5px] flex-1">Silos metálicos para 18 mil toneladas, com planejamento físico-financeiro completo.</p>
+          <div class="font-mono text-xs text-bp border-t border-dashed border-line pt-3 flex justify-between items-center"><span>R$ 18M em obra gerida</span><span class="material-symbols-outlined text-[20px] leading-none text-bp group-hover:text-amber transition-colors">storage</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= NÚMEROS ================= -->
+<section class="py-[120px] max-lg:py-[84px] relative" id="numeros">
+  <div class="mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)]">
+    <div>
+      <div class="font-mono text-xs tracking-[2.5px] uppercase text-dim inline-flex items-center gap-3"><span class="w-[9px] h-[9px] bg-amber"></span><span class="text-bp">003</span> - Números</div>
+      <h2 class="font-display font-bold text-[clamp(32px,5.2vw,62px)] tracking-[-0.02em] uppercase leading-[1.02] mt-[22px]">O que já foi <span class="text-bp">construído</span></h2>
+    </div>
+
+    <div class="grid grid-cols-4 max-lg:grid-cols-2 max-[560px]:grid-cols-1 gap-px bg-line border border-line mt-14">
+      <div class="bg-bg2 p-10 relative">
+        <span class="absolute top-3.5 right-4 font-mono text-[9.5px] tracking-[1.5px] uppercase text-dim">experiência</span>
+        <div class="font-display font-bold text-[clamp(36px,4.6vw,68px)] tracking-[-0.03em] leading-none text-bp whitespace-nowrap"><span>15+</span></div>
+        <div class="text-muted text-[13.5px] mt-3">Anos de engenharia civil - residencial, comercial, industrial e obras de arte.</div>
+      </div>
+      <div class="bg-bg2 p-10 relative">
+        <span class="absolute top-3.5 right-4 font-mono text-[9.5px] tracking-[1.5px] uppercase text-dim">obras</span>
+        <div class="font-display font-bold text-[clamp(36px,4.6vw,68px)] tracking-[-0.03em] leading-none text-bp whitespace-nowrap"><span>80+</span></div>
+        <div class="text-muted text-[13.5px] mt-3">Obras entregues do início ao fim, com ART emitida em cada uma.</div>
+      </div>
+      <div class="bg-bg2 p-10 relative">
+        <span class="absolute top-3.5 right-4 font-mono text-[9.5px] tracking-[1.5px] uppercase text-dim">área construída</span>
+        <div class="font-display font-bold text-[clamp(36px,4.6vw,68px)] tracking-[-0.03em] leading-none text-bp whitespace-nowrap"><span>350</span><span class="text-amber text-[0.55em]"> mil m²</span></div>
+        <div class="text-muted text-[13.5px] mt-3">Metros quadrados calculados e construídos - de galpões a edifícios.</div>
+      </div>
+      <div class="bg-bg2 p-10 relative">
+        <span class="absolute top-3.5 right-4 font-mono text-[9.5px] tracking-[1.5px] uppercase text-dim">laudos</span>
+        <div class="font-display font-bold text-[clamp(36px,4.6vw,68px)] tracking-[-0.03em] leading-none text-bp whitespace-nowrap"><span>120+</span></div>
+        <div class="text-muted text-[13.5px] mt-3">Laudos técnicos e vistorias - patologias, inspeções e pareceres.</div>
+      </div>
+    </div>
+
+    <p class="mt-[84px] font-display font-semibold text-[clamp(28px,4.4vw,54px)] tracking-[-0.02em] leading-[1.15] max-w-[22ch] uppercase">
+      Estrutura bem calculada é a parte da obra que <span class="text-bp">ninguém vê</span> - e a única que <span class="text-amber">não pode falhar.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="border-t border-line bg-bg2 text-center py-[130px] relative overflow-hidden" id="contato">
+  <div class="relative mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)]">
+    <div class="font-mono text-xs tracking-[2.5px] uppercase text-dim inline-flex items-center justify-center gap-3 transition-all duration-700 ease-out delay-100 motion-reduce:transition-none" data-reveal><span class="w-[9px] h-[9px] bg-amber"></span><span class="text-bp">004</span> - Contato</div>
+    <h2 class="font-display font-bold text-[clamp(40px,7vw,92px)] tracking-[-0.03em] uppercase leading-none mt-[30px] mb-[26px] mx-auto max-w-[14ch] transition-all duration-700 ease-out delay-100 motion-reduce:transition-none" data-reveal>Tem uma obra <span class="text-bp">na cabeça?</span></h2>
+    <p class="text-muted max-w-[520px] mx-auto mb-10 text-[16.5px] transition-all duration-700 ease-out delay-200 motion-reduce:transition-none" data-reveal>Não precisa ter tudo pronto. Conta o que está travando e eu digo o caminho - sem compromisso.</p>
+    <div class="flex justify-center gap-3.5 flex-wrap transition-all duration-700 ease-out delay-200 motion-reduce:transition-none" data-reveal>
+      <a href="mailto:ola@rafaelmonteiro.dev" class="group inline-flex items-center gap-3 font-mono text-[13px] tracking-[1px] uppercase no-underline rounded px-7 py-3.5 border transition-colors duration-200 cursor-pointer bg-bp border-bp text-night hover:bg-transparent hover:text-bp">Enviar e-mail <span class="material-symbols-outlined text-[18px] leading-none transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span></a>
+      <a href="#" class="inline-flex items-center gap-3 font-mono text-[13px] tracking-[1px] uppercase no-underline rounded px-7 py-3.5 border transition-colors duration-200 cursor-pointer border-line2 text-ink hover:border-bp hover:text-bp"><span class="material-symbols-outlined text-[18px] leading-none">chat</span> WhatsApp</a>
+    </div>
+    <div class="mt-9 flex justify-center gap-[14px_34px] flex-wrap font-mono text-[12.5px] tracking-[1px] uppercase text-dim transition-all duration-700 ease-out delay-300 motion-reduce:transition-none" data-reveal>
+      <span>Resposta em até 24h</span>
+      <a href="mailto:ola@rafaelmonteiro.dev" class="text-muted border-b border-line2 hover:text-amber hover:border-amber transition-colors no-underline">ola@rafaelmonteiro.dev</a>
+      <span>CREA/SP 5061234567-D</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="py-9 pb-12">
+  <div class="mx-auto w-[min(1180px,calc(100%-56px))] max-[640px]:w-[calc(100%-36px)] flex justify-between items-center gap-[18px] flex-wrap">
+    <span class="font-mono text-[11.5px] tracking-[0.5px] text-dim">© 2026 <b class="text-muted font-normal">Clayton Rennan</b> - Engenheiro Civil · CREA/SP 5061234567-D · Fotos: <a href="https://www.pexels.com" target="_blank" rel="noopener" class="text-muted hover:text-bp transition-colors no-underline">Pexels</a></span>
+    <div class="flex gap-2">
+      <a href="#" aria-label="LinkedIn" class="font-mono text-[11px] tracking-[1px] uppercase text-muted px-3.5 py-2 border border-line hover:bg-bp hover:text-bg hover:border-bp transition-colors no-underline">in</a>
+      <a href="mailto:ola@rafaelmonteiro.dev" aria-label="E-mail" class="font-mono text-[11px] tracking-[1px] uppercase text-muted px-3.5 py-2 border border-line hover:bg-bp hover:text-bg hover:border-bp transition-colors no-underline"><span class="material-symbols-outlined text-[16px] leading-none align-middle">mail</span></a>
+      <a href="#" aria-label="WhatsApp" class="font-mono text-[11px] tracking-[1px] uppercase text-muted px-3.5 py-2 border border-line hover:bg-bp hover:text-bg hover:border-bp transition-colors no-underline"><span class="material-symbols-outlined text-[16px] leading-none align-middle">chat</span></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ---------- nav on scroll ----------
+  const header = document.getElementById("header");
+  const onScroll = () => {
+    const s = window.scrollY > 24;
+    header.classList.toggle("bg-bg/85", s);
+    header.classList.toggle("backdrop-blur-md", s);
+    header.classList.toggle("border-line", s);
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  // ---------- reveal on scroll (progressivo: conteúdo nunca fica invisível sem JS) ----------
+  const revealEls = document.querySelectorAll("[data-reveal]");
+  if ("IntersectionObserver" in window) {
+    revealEls.forEach((el) => el.classList.add("opacity-0", "translate-y-6"));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.remove("opacity-0", "translate-y-6");
+          e.target.classList.add("opacity-100", "translate-y-0");
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach((el) => io.observe(el));
+  }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 - Página não encontrada | Clayton Rennan</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #0c0d10;
+    color: #e9ecf0;
+    font-family: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+    padding: 32px;
+    overflow-x: hidden;
+  }
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5c636e;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .dot { width: 9px; height: 9px; background: #ffb02e; display: inline-block; }
+  .code { color: #4c9aff; }
+  h1 {
+    font-size: clamp(96px, 22vw, 240px);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 0.95;
+    text-transform: uppercase;
+    color: #e9ecf0;
+  }
+  h1 .four { color: #4c9aff; }
+  p { color: #99a1ad; font-size: 17px; line-height: 1.7; margin-top: 24px; max-width: 420px; }
+  p strong { color: #e9ecf0; font-weight: 600; }
+  a.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 14px 28px;
+    border: 1px solid #4c9aff;
+    background: #4c9aff;
+    color: #06121f;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  a.btn:hover { background: transparent; color: #4c9aff; }
+  .footer {
+    margin-top: 56px;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.5px;
+    color: #5c636e;
+  }
+</style>
+</head>
+<body>
+  <div class="mono"><span class="dot"></span><span class="code">404</span> - Fora do projeto</div>
+  <h1><span class="four">4</span>0<span class="four">4</span></h1>
+  <p>Essa página <strong>não saiu do papel</strong>. O endereço que você procurou não existe - mas o resto do projeto está de pé.</p>
+  <a class="btn" href="/">Voltar ao início <span aria-hidden="true">→</span></a>
+  <div class="footer">© 2026 Clayton Rennan - Engenheiro Civil · CREA/SP 5061234567-D</div>
+</body>
+</html>
